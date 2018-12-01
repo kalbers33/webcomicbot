@@ -1,0 +1,22 @@
+{% if comic_strip %}
+    <h1><a href="{{comic_strip.base_url}}">{{ comic_strip.name }}</a></h1>
+{% endif %}
+
+{% if message %}
+    <p> {{ message }}</p>
+{% endif %}
+
+{% if comic_list %}
+    <ul>
+    {% for comic in comic_list %}
+    <li><a href="{% url 'comics:comic' comic.id %}">{{ comic.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No comic strips are available.</p>
+{% endif %}
+
+<form action="{% url 'comics:update_comics' comic_strip.id %}" method="post">
+{% csrf_token %}
+<input type="submit" value="Update Comits" />
+</form>

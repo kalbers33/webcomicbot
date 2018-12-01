@@ -1,0 +1,15 @@
+{% if date  %}
+    <h1>{{ Date }}</h1>
+{% else %}
+    <p>Cannot find date</p>
+{% endif %}
+
+{% if comic_list %}
+    <ul>
+    {% for comic in comic_list %}
+    <li><a href="{% url 'comics:comic' comic.id %}">{{ comic.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No comic strips are available.</p>
+{% endif %}
