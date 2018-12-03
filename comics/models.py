@@ -5,25 +5,11 @@ from django.utils import timezone
 import datetime
 
 
-class ComicStripScraper(models.Model):
-    DEFAULT = 'default'
-    SCRAPER_CHOICES = (
-            (DEFAULT, DEFAULT),
-            )
-    scraper = models.CharField(
-            max_length=100,
-            choices = SCRAPER_CHOICES,
-            default=DEFAULT)
-
-    def __str__(self):
-        return self.scraper
-
 class ComicStrip(models.Model):
 
     name = models.CharField(max_length=200)
     base_url = models.URLField(max_length=200)
     rss_feed = models.URLField(max_length=500, default='')
-    scraper = models.ForeignKey(ComicStripScraper, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.name
