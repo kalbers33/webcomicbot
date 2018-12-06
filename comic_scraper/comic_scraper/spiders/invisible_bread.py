@@ -23,7 +23,6 @@ class InvisibleBreadSpider(scrapy.Spider):
                                  callback=self.main_page)
                 request.meta['info'] = info
                 yield request
-            yield info
 
     def main_page(self, response):
         info = response.meta['info']
@@ -38,7 +37,6 @@ class InvisibleBreadSpider(scrapy.Spider):
                     callback=self.hidden_page)
             request.meta['info'] = info
             yield request
-        yield info
 
     def hidden_page(self, response):
         info = response.meta['info']

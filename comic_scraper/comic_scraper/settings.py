@@ -14,6 +14,20 @@ BOT_NAME = 'comic_scraper'
 SPIDER_MODULES = ['comic_scraper.spiders']
 NEWSPIDER_MODULE = 'comic_scraper.spiders'
 
+# DJANGO INTEGRATION
+
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.abspath('.')))
+# Do not forget the change iCrawler part based on your project name
+os.environ['DJANGO_SETTINGS_MODULE'] = 'webcomicbot.settings'
+
+# This is required only if Django Version > 1.8
+import django
+django.setup()
+
+# DJANGO INTEGRATION
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'comic_scraper (+http://www.yourdomain.com)'
@@ -64,9 +78,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'comic_scraper.pipelines.ComicScraperPipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'comic_scraper.pipelines.ComicScraperPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
