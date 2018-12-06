@@ -20,7 +20,7 @@ class Comic(models.Model):
     title = models.CharField(max_length=200)
     date = models.DateField('date published')
     alt_text = models.TextField('alternate text')
-    comic_page_url = models.URLField(max_length=500, default='')
+    comic_page_url = models.URLField(max_length=500, default='', unique=True)
     comic_url = models.URLField(max_length=500)
     alt_comic_url = models.URLField(max_length=500, default='')
 
