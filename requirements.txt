@@ -1,3 +1,4 @@
 django~=2.1.0
 psycopg2~=2.7.6
 scrapy~=1.5.0
+python-dateutil~=2.7.0

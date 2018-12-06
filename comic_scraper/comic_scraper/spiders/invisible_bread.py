@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
+from dateutil.parser import parse
 
 
 class InvisibleBreadSpider(scrapy.Spider):
@@ -13,18 +14,34 @@ class InvisibleBreadSpider(scrapy.Spider):
         for item in response.css('item'):
             info = {}
             info['title'] = item.css('title::text').extract_first()
-            info['date'] = item.css('pubDate::text').extract_first()
-            info['link'] = item.css('link::text').extract_first()
+            # 'date' : '%a, %d %b %Y %H:%M:%S %z'
+            info['date'] = parse(item.css('pubDate::text').extract_first())
+            info['comic_page_url'] = item.css('link::text').extract_first()
             next_page = item.css('link::text').extract_first()
-            print(next_page)
             if next_page is not None:
                 request = scrapy.Request(next_page,
-                                 callback=self.parse_page2)
+                                 callback=self.main_page)
                 request.meta['info'] = info
                 yield request
-            else:
-                yield info
+            yield info
 
-    def parse_page2(self, response):
+    def main_page(self, response):
         info = response.meta['info']
+        comic_url = response.css("#comic-1 img::attr(src)").extract_first()
+        info['comic_url'] = response.urljoin(comic_url)
+        info['alt_text'] = response.css(".widget-content p::text").extract_first()
+
+        next_page = response.css("#extrapanelbutton a::attr(href)").extract_first()
+        if next_page is not None:
+            request = scrapy.Request(
+                    next_page,
+                    callback=self.hidden_page)
+            request.meta['info'] = info
+            yield request
+        yield info
+
+    def hidden_page(self, response):
+        info = response.meta['info']
+        alt_comic_url = response.css("#content img::attr(src)").extract_first()
+        info['alt_comic_url'] = response.urljoin(alt_comic_url)
         yield info
