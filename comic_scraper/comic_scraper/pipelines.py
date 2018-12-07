@@ -16,9 +16,11 @@ class ComicScraperPipeline(object):
         comic.comic_strip = self.comic_strip
         comic.title = item['title']
         comic.date = item['date']
-        comic.alt_text = item['alt_text']
         comic.comic_page_url = item['comic_page_url']
         comic.comic_url = item['comic_url']
-        comic.alt_comic_url = item['alt_comic_url']
+        if 'alt_text' in item:
+            comic.alt_text = item['alt_text']
+        if 'alt_comic_url' in item:
+            comic.alt_comic_url = item['alt_comic_url']
         comic.save()
         return item

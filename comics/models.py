@@ -11,6 +11,7 @@ class ComicStrip(models.Model):
     SCRAPER_LIST = (
             (DEFAULT, 'Default'),
             ('invisible_bread', 'Invisible Bread'),
+            ('dilbert', 'Dilbert'),
             )
 
     name = models.CharField(max_length=200)
