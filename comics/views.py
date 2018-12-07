@@ -4,6 +4,10 @@ from django.template import loader
 
 from .models import Comic, ComicStrip
 
+from scrapyd_api import ScrapydAPI
+# connect scrapyd service
+scrapyd = ScrapydAPI('http://localhost:6800')
+
 import datetime
 
 def index(request):
@@ -41,4 +45,19 @@ def comic(request, comic_id):
     return render(request, 'comics/comic.html', context)
 
 def update_comics(request, comic_strip_id):
-    return comic_strip(request, comic_strip_id, "Updated!")
+    my_comic_strip = get_object_or_404(ComicStrip, id=comic_strip_id)
+    settings = {
+            'comic_strip' : my_comic_strip
+            }
+
+    if my_comic_strip.rss_feed is not '':
+        url = my_comic_strip.rss_feed
+    else:
+        url = my_comic_strip.base_url
+
+    task = scrapyd.schedule(
+            'default', 
+            my_comic_strip.scraper_name, 
+            settings=settings, 
+            url=url)
+    return comic_strip(request, comic_strip_id, "Updated! task{}".format(task))

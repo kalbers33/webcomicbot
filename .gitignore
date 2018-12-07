@@ -1,2 +1,5 @@
 *.pyc
 *.sw*
+comic_scraper/logs/
+comic_scraper/dbs/
+twistd.pid
