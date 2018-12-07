@@ -8,11 +8,10 @@ import datetime
 
 def index(request):
     comic_strip_list = ComicStrip.objects.order_by('-name')
-    template = loader.get_template('comics/index.html')
     context = {
         'comic_strip_list': comic_strip_list,
     }
-    return HttpResponse(template.render(context, request))
+    return render(request, 'comics/index.html', context)
 
 def date(request, year, month, day):
     date = datetime.date(int(year), int(month), int(day))

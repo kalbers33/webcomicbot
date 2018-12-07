@@ -7,9 +7,16 @@ import datetime
 
 class ComicStrip(models.Model):
 
+    DEFAULT = 'default'
+    SCRAPER_LIST = (
+            (DEFAULT, 'Default'),
+            ('invisible_bread', 'Invisible Bread'),
+            )
+
     name = models.CharField(max_length=200)
     base_url = models.URLField(max_length=200)
     rss_feed = models.URLField(max_length=500, default='')
+    scraper_name = models.CharField(max_length=100, choices=SCRAPER_LIST, default=DEFAULT)
 
     def __str__(self):
         return self.name
