@@ -14,8 +14,15 @@ class ComicScraperPipeline(object):
     def process_item(self, item, spider):
         comic = Comic()
         comic.comic_strip = self.comic_strip
-        comic.title = item['title']
         comic.date = item['date']
+        if 'title' in item:
+            comic.title = item['title']
+        else:
+            comic.title = "{} : {}/{}/{}".format(
+                    self.comic_strip.name,
+                    comic.date.month,
+                    comic.date.day,
+                    comic.date.year)
         comic.comic_page_url = item['comic_page_url']
         comic.comic_url = item['comic_url']
         if 'alt_text' in item:
