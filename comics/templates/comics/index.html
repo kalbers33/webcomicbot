@@ -7,3 +7,8 @@
 {% else %}
     <p>No comic strips are available.</p>
 {% endif %}
+
+<form action="{% url 'comics:update_all_comics' %}" method="post">
+{% csrf_token %}
+<input type="submit" value="Update All Comics" />
+</form>

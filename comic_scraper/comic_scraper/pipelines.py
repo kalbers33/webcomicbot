@@ -1,4 +1,5 @@
 from comics.models import Comic, ComicStrip
+from django.db.utils import IntegrityError
 
 class ComicScraperPipeline(object):
     def __init__(self, comic_strip, *args, **kwargs):
@@ -18,16 +19,24 @@ class ComicScraperPipeline(object):
         if 'title' in item:
             comic.title = item['title']
         else:
+            comic.title = None
+
+        if comic.title is None:
             comic.title = "{} : {}/{}/{}".format(
                     self.comic_strip.name,
                     comic.date.month,
                     comic.date.day,
                     comic.date.year)
+
         comic.comic_page_url = item['comic_page_url']
         comic.comic_url = item['comic_url']
         if 'alt_text' in item:
             comic.alt_text = item['alt_text']
         if 'alt_comic_url' in item:
             comic.alt_comic_url = item['alt_comic_url']
-        comic.save()
+        try:
+            comic.save()
+        except IntegrityError:
+            pass
+
         return item

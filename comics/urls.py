@@ -5,6 +5,7 @@ from . import views
 app_name='comics'
 urlpatterns = [
     path('', views.index, name='index'),
+    path('comics', views.update_all_comics, name='update_all_comics'),
     re_path('(?P<year>[0-9]+)/(?P<month>[0-9]+)/(?P<day>[0-9]+)/date/', views.date, name='date'),
     re_path('(?P<comic_strip_id>[0-9]+)/comic_strip/', views.comic_strip, name='comic_strip'),
     re_path('(?P<comic_id>[0-9]+)/comic/', views.comic, name='comic'),

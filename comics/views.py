@@ -44,20 +44,31 @@ def comic(request, comic_id):
     }
     return render(request, 'comics/comic.html', context)
 
-def update_comics(request, comic_strip_id):
-    my_comic_strip = get_object_or_404(ComicStrip, id=comic_strip_id)
-    settings = {
-            'comic_strip' : my_comic_strip
-            }
-
+def schedule_comic_update(my_comic_strip):
     if my_comic_strip.rss_feed is not '':
         url = my_comic_strip.rss_feed
     else:
         url = my_comic_strip.base_url
+
+    settings = {
+            'comic_strip' : my_comic_strip
+            }
 
     task = scrapyd.schedule(
             'default', 
             my_comic_strip.scraper_name, 
             settings=settings, 
             url=url)
-    return comic_strip(request, comic_strip_id, "Updated! task{}".format(task))
+    return task
+
+def update_comics(request, comic_strip_id):
+    my_comic_strip = get_object_or_404(ComicStrip, id=comic_strip_id)
+    schedule_comic_update(my_comic_strip)
+
+    return comic_strip(request, comic_strip_id, "Update Scheduled")
+
+def update_all_comics(request):
+    for current_comic_strip in ComicStrip.objects.all():
+        schedule_comic_update(current_comic_strip)
+
+    return index(request)
