@@ -37,6 +37,7 @@ class ComicScraperPipeline(object):
         try:
             comic.save()
         except IntegrityError:
+            # Not needed, but we should try updating here. 
             pass
 
         return item

@@ -13,6 +13,7 @@ class ComicStrip(models.Model):
             ('invisible_bread', 'Invisible Bread'),
             ('dilbert', 'Dilbert'),
             ('gocomics', 'Go Comics'),
+            ('comics_kingdom', 'Comics Kingdom'),
             )
 
     name = models.CharField(max_length=200)
