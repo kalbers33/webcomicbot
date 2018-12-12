@@ -19,7 +19,7 @@ class ComicsKingdomSpider(scrapy.Spider):
     def parse(self, response):
         info = {}
 
-        comic_page_url = response.css(".inner-comic-wrap img::attr(data-src)").extract_first()
+        comic_page_url = response.css("img::attr(data-src)").extract_first()
         comic_page_url = response.urljoin(comic_page_url)
         info['comic_page_url'] = response.css("header h5 a::attr(href)").extract_first()
         info['comic_page_url'] = response.urljoin(info['comic_page_url'])
