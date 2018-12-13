@@ -19,7 +19,7 @@ def index(request):
 
 def date(request, year, month, day):
     date = datetime.date(int(year), int(month), int(day))
-    comic_list = get_list_or_404(Comic, date=date)
+    comic_list = get_list_or_404(Comic.objects.order_by('title'), date=date)
     context = {
         'date' : date,
         'comic_list' : comic_list,
