@@ -9,7 +9,7 @@
 {% if comic_list %}
     <ul>
     {% for comic in comic_list %}
-    <li><a href="{% url 'comics:comic' comic.id %}">{{ comic.title }}</a></li>
+    <li><a href="{% url 'comics:comic' comic.id %}">{{ comic.title }} : {{ comic.date}}</a></li>
     {% endfor %}
     </ul>
 {% else %}
