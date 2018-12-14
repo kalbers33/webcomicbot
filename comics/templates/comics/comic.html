@@ -1,3 +1,6 @@
+{% extends 'base.html' %}
+
+{% block content %}
 {% if comic %}
     <h1><a href="{% url 'comics:comic_strip' comic.comic_strip.id %}">{{ comic.title }}</a></h1>
     <p>Date: <a href="{% url 'comics:date' year=comic.date.year month=comic.date.month day=comic.date.day %}">{{comic.date}}</a></p>
@@ -7,3 +10,4 @@
 {% else %}
     <p>No comic strips are available.</p>
 {% endif %}
+{% endblock %}

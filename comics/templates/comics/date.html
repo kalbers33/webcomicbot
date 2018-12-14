@@ -1,3 +1,6 @@
+{% extends 'base.html' %}
+
+{% block content %}
 {% if date  %}
     <h1>{{ Date }}</h1>
 {% else %}
@@ -5,16 +8,11 @@
 {% endif %}
 
 {% if comic_list %}
-    <ul>
     {% for comic in comic_list %}
-    <li><a href="{% url 'comics:comic' comic.id %}">{{ comic.title }}</a></li>
-    {% endfor %}
-    </ul>
-    {% for comic in comic_list %}
-    <div id="comic">
+    <div class="comic">
         <h1><a href="{% url 'comics:comic_strip' comic.comic_strip.id %}">{{ comic.title }}</a></h1>
         <p>Date: <a href="{% url 'comics:date' year=comic.date.year month=comic.date.month day=comic.date.day %}">{{comic.date}}</a></p>
-        <a href="{{comic.comic_url}}"><img src="{{comic.comic_url}}"></a></br>
+        <a href="{% url 'comics:comic' comic.id %}"><img style='max-width: 100%; object-fit: contain' src="{{comic.comic_url}}"></a></br>
         <p> {{comic.alt_text}}</p></br>
         <a href="{{comic.alt_comic_url}}"><img src="{{comic.alt_comic_url}}"></a>
     </div>
@@ -22,3 +20,4 @@
 {% else %}
     <p>No comic strips are available.</p>
 {% endif %}
+{% endblock %}

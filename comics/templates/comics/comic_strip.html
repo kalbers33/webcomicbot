@@ -1,3 +1,6 @@
+{% extends 'base.html' %}
+
+{% block content %}
 {% if comic_strip %}
     <h1><a href="{{comic_strip.base_url}}">{{ comic_strip.name }}</a></h1>
 {% endif %}
@@ -20,3 +23,4 @@
 {% csrf_token %}
 <input type="submit" value="Update Comics" />
 </form>
+{% endblock %}

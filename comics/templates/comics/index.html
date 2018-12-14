@@ -1,3 +1,6 @@
+{% extends 'base.html' %}
+
+{% block content %}
 {% if comic_strip_list %}
     <ul>
         {% for comic_strip in comic_strip_list %}
@@ -12,3 +15,4 @@
 {% csrf_token %}
 <input type="submit" value="Update All Comics" />
 </form>
+{% endblock %}
