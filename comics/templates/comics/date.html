@@ -1,12 +1,20 @@
 {% extends 'base.html' %}
 
+{% block top_navigation %}
+{% block bottom_navigation %}
+    <div class="page_navigation">
+        <a href="{% url 'comics:date' year=prev_date.year month=prev_date.month day=prev_date.day %}">Prev</a>
+        <a href="{% url 'comics:date' year=next_date.year month=next_date.month day=next_date.day %}">Next</a>
+    </div>
+{% endblock %}
+{% endblock %}
+
 {% block content %}
 {% if date  %}
-    <h1>{{ Date }}</h1>
+    <h1>{{ date }}</h1>
 {% else %}
     <p>Cannot find date</p>
 {% endif %}
-
 {% if comic_list %}
     {% for comic in comic_list %}
     <div class="comic">

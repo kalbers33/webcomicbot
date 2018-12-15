@@ -19,9 +19,12 @@ def index(request):
 
 def date(request, year, month, day):
     date = datetime.date(int(year), int(month), int(day))
+    one_day = datetime.timedelta(days=1)
     comic_list = get_list_or_404(Comic.objects.order_by('title'), date=date)
     context = {
         'date' : date,
+        'prev_date' : date - one_day,
+        'next_date' : date + one_day,
         'comic_list' : comic_list,
     }
     return render(request, 'comics/date.html', context)

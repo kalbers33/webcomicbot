@@ -14,9 +14,17 @@
         </ul>
         {% endblock %}
     </div>
+    <div id="top_navigation">
+        {% block top_navigation %}
+        {% endblock %}
+    </div>
 
     <div id="content">
         {% block content %}{% endblock %}
+    </div>
+    <div id="bottom_navigation">
+        {% block bottom_navigation %}
+        {% endblock %}
     </div>
 </body>
 </html>
