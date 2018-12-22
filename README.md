@@ -9,7 +9,6 @@ python manage.py migrate
 - Create superuser through django
 python manage.py createsuperuser
 
-- Make migrations and apply them from project
-python manage.py makemigrations
-python manage.py migrate
+- Import starting data for basic webcomics supported:
 
+python manage.py loaddata start_data.json
