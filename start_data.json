@@ -1,0 +1,222 @@
+[
+{
+    "model": "comics.comicstrip",
+    "pk": 1,
+    "fields": {
+        "name": "Invisible Bread",
+        "base_url": "http://invisiblebread.com",
+        "rss_feed": "http://feeds.feedburner.com/InvisibleBread",
+        "scraper_name": "invisible_bread"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 2,
+    "fields": {
+        "name": "Dilbert",
+        "base_url": "https://dilbert.com/",
+        "rss_feed": "http://feed.dilbert.com/dilbert/daily_strip",
+        "scraper_name": "dilbert"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 3,
+    "fields": {
+        "name": "Pearls Before Swine",
+        "base_url": "https://www.gocomics.com/pearlsbeforeswine",
+        "rss_feed": "https://www.gocomics.com/pearlsbeforeswine",
+        "scraper_name": "gocomics"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 4,
+    "fields": {
+        "name": "FoxTrot",
+        "base_url": "https://www.gocomics.com/foxtrot",
+        "rss_feed": "https://www.gocomics.com/foxtrot",
+        "scraper_name": "gocomics"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 5,
+    "fields": {
+        "name": "Baldo",
+        "base_url": "https://www.gocomics.com/baldo",
+        "rss_feed": "https://www.gocomics.com/baldo",
+        "scraper_name": "gocomics"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 6,
+    "fields": {
+        "name": "Pickles",
+        "base_url": "https://www.gocomics.com/pickles",
+        "rss_feed": "https://www.gocomics.com/pickles",
+        "scraper_name": "gocomics"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 7,
+    "fields": {
+        "name": "For Better or for Worse",
+        "base_url": "https://www.gocomics.com/forbetterorforworse",
+        "rss_feed": "https://www.gocomics.com/forbetterorforworse",
+        "scraper_name": "gocomics"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 8,
+    "fields": {
+        "name": "Luann",
+        "base_url": "https://www.gocomics.com/luann",
+        "rss_feed": "https://www.gocomics.com/luann",
+        "scraper_name": "gocomics"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 9,
+    "fields": {
+        "name": "Rose is Rose",
+        "base_url": "https://www.gocomics.com/roseisrose",
+        "rss_feed": "https://www.gocomics.com/roseisrose",
+        "scraper_name": "gocomics"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 10,
+    "fields": {
+        "name": "Non Sequitur",
+        "base_url": "https://www.gocomics.com/nonsequitur",
+        "rss_feed": "https://www.gocomics.com/nonsequitur",
+        "scraper_name": "gocomics"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 11,
+    "fields": {
+        "name": "Wumo",
+        "base_url": "https://www.gocomics.com/wumo",
+        "rss_feed": "https://www.gocomics.com/wumo",
+        "scraper_name": "gocomics"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 12,
+    "fields": {
+        "name": "Drabble",
+        "base_url": "https://www.gocomics.com/drabble",
+        "rss_feed": "https://www.gocomics.com/drabble",
+        "scraper_name": "gocomics"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 13,
+    "fields": {
+        "name": "Frazz",
+        "base_url": "https://www.gocomics.com/frazz",
+        "rss_feed": "https://www.gocomics.com/frazz",
+        "scraper_name": "gocomics"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 14,
+    "fields": {
+        "name": "Zits",
+        "base_url": "http://comicskingdom.com/zits",
+        "rss_feed": "http://comicskingdom.com/zits",
+        "scraper_name": "comics_kingdom"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 15,
+    "fields": {
+        "name": "Baby Blues",
+        "base_url": "https://comicskingdom.com/baby-blues",
+        "rss_feed": "https://comicskingdom.com/baby-blues",
+        "scraper_name": "comics_kingdom"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 16,
+    "fields": {
+        "name": "Mutts",
+        "base_url": "https://comicskingdom.com/mutts",
+        "rss_feed": "https://comicskingdom.com/mutts",
+        "scraper_name": "comics_kingdom"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 17,
+    "fields": {
+        "name": "Rhymes with Orange",
+        "base_url": "https://comicskingdom.com/rhymes-with-orange/",
+        "rss_feed": "https://comicskingdom.com/rhymes-with-orange/",
+        "scraper_name": "comics_kingdom"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 18,
+    "fields": {
+        "name": "Sharman's Lagoon",
+        "base_url": "https://comicskingdom.com/sherman-s-lagoon/",
+        "rss_feed": "https://comicskingdom.com/sherman-s-lagoon/",
+        "scraper_name": "comics_kingdom"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 19,
+    "fields": {
+        "name": "Mallard Fillmore",
+        "base_url": "https://comicskingdom.com/mallard-fillmore/",
+        "rss_feed": "https://comicskingdom.com/mallard-fillmore/",
+        "scraper_name": "comics_kingdom"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 20,
+    "fields": {
+        "name": "Jump Start",
+        "base_url": "https://www.gocomics.com/jumpstart/",
+        "rss_feed": "https://www.gocomics.com/jumpstart/",
+        "scraper_name": "gocomics"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 21,
+    "fields": {
+        "name": "Frank and Ernest",
+        "base_url": "https://www.gocomics.com/frank-and-ernest",
+        "rss_feed": "https://www.gocomics.com/frank-and-ernest",
+        "scraper_name": "gocomics"
+    }
+},
+{
+    "model": "comics.comicstrip",
+    "pk": 22,
+    "fields": {
+        "name": "Bizarro",
+        "base_url": "https://comicskingdom.com/bizarro",
+        "rss_feed": "https://comicskingdom.com/bizarro",
+        "scraper_name": "comics_kingdom"
+    }
+}
+]

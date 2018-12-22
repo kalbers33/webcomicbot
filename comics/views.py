@@ -6,7 +6,7 @@ from .models import Comic, ComicStrip
 
 from scrapyd_api import ScrapydAPI
 # connect scrapyd service
-scrapyd = ScrapydAPI('http://localhost:6800')
+scrapyd = ScrapydAPI('http://scrapyd:6800')
 
 import datetime
 
