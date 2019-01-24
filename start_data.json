@@ -12734,5 +12734,1656 @@
         "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9TYWxseUZvcnRoLzIwMTkvMDEvU2FsbHlfRm9ydGguMjAxOTAxMDhfMTQ0MC5naWY=",
         "alt_comic_url": ""
     }
+},
+{
+    "model": "comics.comic",
+    "pk": 2172,
+    "fields": {
+        "comic_strip": 2,
+        "title": "Did Not Know About The Server",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://dilbert.com/strip/2019-01-18?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+dilbert%2Fdaily_strip+%28Dilbert+Daily+Strip+-+UU%29",
+        "comic_url": "https://assets.amuniversal.com/81c1c980e76401367284005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2176,
+    "fields": {
+        "comic_strip": 2,
+        "title": "Why Didn't You Do It Sooner",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://dilbert.com/strip/2019-01-19?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+dilbert%2Fdaily_strip+%28Dilbert+Daily+Strip+-+UU%29",
+        "comic_url": "https://assets.amuniversal.com/f9487bf0e76201367282005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2177,
+    "fields": {
+        "comic_strip": 2,
+        "title": "Very Smart Phd",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://dilbert.com/strip/2019-01-21?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+dilbert%2Fdaily_strip+%28Dilbert+Daily+Strip+-+UU%29",
+        "comic_url": "https://assets.amuniversal.com/1eb52e70f4d101367684005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2178,
+    "fields": {
+        "comic_strip": 2,
+        "title": "Thankless Tasks",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://dilbert.com/strip/2019-01-22?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+dilbert%2Fdaily_strip+%28Dilbert+Daily+Strip+-+UU%29",
+        "comic_url": "https://assets.amuniversal.com/20b9a1a0f4d101367684005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2179,
+    "fields": {
+        "comic_strip": 2,
+        "title": "Dilbert : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://dilbert.com/strip/2019-01-20?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+dilbert%2Fdaily_strip+%28Dilbert+Daily+Strip+-+UU%29",
+        "comic_url": "https://assets.amuniversal.com/cd78af80ead90136733a005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2180,
+    "fields": {
+        "comic_strip": 2,
+        "title": "No Recognisiton",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://dilbert.com/strip/2019-01-23?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+dilbert%2Fdaily_strip+%28Dilbert+Daily+Strip+-+UU%29",
+        "comic_url": "https://assets.amuniversal.com/22c334f0f4d101367684005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2185,
+    "fields": {
+        "comic_strip": 3,
+        "title": "Pearls Before Swine : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/pearlsbeforeswine/2019/01/23",
+        "comic_url": "https://assets.amuniversal.com/53d51310fb14013678f8005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2186,
+    "fields": {
+        "comic_strip": 3,
+        "title": "Pearls Before Swine : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/pearlsbeforeswine/2019/01/22",
+        "comic_url": "https://assets.amuniversal.com/51b12a60fb14013678f8005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2187,
+    "fields": {
+        "comic_strip": 3,
+        "title": "Pearls Before Swine : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/pearlsbeforeswine/2019/01/21",
+        "comic_url": "https://assets.amuniversal.com/4fb671d0fb14013678f8005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2188,
+    "fields": {
+        "comic_strip": 3,
+        "title": "Pearls Before Swine : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/pearlsbeforeswine/2019/01/20",
+        "comic_url": "https://assets.amuniversal.com/571405b0ea5201367328005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2189,
+    "fields": {
+        "comic_strip": 3,
+        "title": "Pearls Before Swine : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/pearlsbeforeswine/2019/01/19",
+        "comic_url": "https://assets.amuniversal.com/40b79450f596013676d7005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2190,
+    "fields": {
+        "comic_strip": 3,
+        "title": "Pearls Before Swine : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/pearlsbeforeswine/2019/01/18",
+        "comic_url": "https://assets.amuniversal.com/3e924c60f596013676d7005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2195,
+    "fields": {
+        "comic_strip": 4,
+        "title": "FoxTrot : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/foxtrot/2019/01/20",
+        "comic_url": "https://assets.amuniversal.com/235d07f0eada0136733a005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2205,
+    "fields": {
+        "comic_strip": 5,
+        "title": "Baldo : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/baldo/2019/01/23",
+        "comic_url": "https://assets.amuniversal.com/b1e4ab20fa4f013678a6005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2206,
+    "fields": {
+        "comic_strip": 5,
+        "title": "Baldo : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/baldo/2019/01/22",
+        "comic_url": "https://assets.amuniversal.com/df6fbd70fa53013678a9005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2207,
+    "fields": {
+        "comic_strip": 5,
+        "title": "Baldo : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/baldo/2019/01/21",
+        "comic_url": "https://assets.amuniversal.com/afe57290fa4f013678a6005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2208,
+    "fields": {
+        "comic_strip": 5,
+        "title": "Baldo : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/baldo/2019/01/20",
+        "comic_url": "https://assets.amuniversal.com/12c2b1d0ead90136733a005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2209,
+    "fields": {
+        "comic_strip": 5,
+        "title": "Baldo : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/baldo/2019/01/19",
+        "comic_url": "https://assets.amuniversal.com/c42c2d50f4d101367684005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2210,
+    "fields": {
+        "comic_strip": 5,
+        "title": "Baldo : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/baldo/2019/01/18",
+        "comic_url": "https://assets.amuniversal.com/30b49440f4ce01367684005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2215,
+    "fields": {
+        "comic_strip": 6,
+        "title": "Pickles : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/pickles/2019/01/23",
+        "comic_url": "https://assets.amuniversal.com/281c9520f1c70136758f005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2216,
+    "fields": {
+        "comic_strip": 7,
+        "title": "For Better or for Worse : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/forbetterorforworse/2019/01/23",
+        "comic_url": "https://assets.amuniversal.com/ec86c200fa53013678a9005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2217,
+    "fields": {
+        "comic_strip": 6,
+        "title": "Pickles : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/pickles/2019/01/22",
+        "comic_url": "https://assets.amuniversal.com/2c70b4d0f1c70136758f005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2218,
+    "fields": {
+        "comic_strip": 7,
+        "title": "For Better or for Worse : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/forbetterorforworse/2019/01/22",
+        "comic_url": "https://assets.amuniversal.com/a3343900fa52013678a8005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2219,
+    "fields": {
+        "comic_strip": 7,
+        "title": "For Better or for Worse : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/forbetterorforworse/2019/01/21",
+        "comic_url": "https://assets.amuniversal.com/bece0ff0fa4f013678a6005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2220,
+    "fields": {
+        "comic_strip": 7,
+        "title": "For Better or for Worse : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/forbetterorforworse/2019/01/20",
+        "comic_url": "https://assets.amuniversal.com/13c21940eada0136733a005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2221,
+    "fields": {
+        "comic_strip": 6,
+        "title": "Pickles : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/pickles/2019/01/21",
+        "comic_url": "https://assets.amuniversal.com/241d6ad0f1c70136758f005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2222,
+    "fields": {
+        "comic_strip": 7,
+        "title": "For Better or for Worse : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/forbetterorforworse/2019/01/19",
+        "comic_url": "https://assets.amuniversal.com/2abb3390f4d101367684005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2223,
+    "fields": {
+        "comic_strip": 9,
+        "title": "Rose is Rose : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/roseisrose/2019/01/23",
+        "comic_url": "https://assets.amuniversal.com/3298bef0f7f401367804005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2224,
+    "fields": {
+        "comic_strip": 8,
+        "title": "Luann : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/luann/2019/01/23",
+        "comic_url": "https://assets.amuniversal.com/f7f37d20fb11013678f8005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2225,
+    "fields": {
+        "comic_strip": 7,
+        "title": "For Better or for Worse : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/forbetterorforworse/2019/01/18",
+        "comic_url": "https://assets.amuniversal.com/28d6a1d0f4d101367684005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2226,
+    "fields": {
+        "comic_strip": 9,
+        "title": "Rose is Rose : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/roseisrose/2019/01/22",
+        "comic_url": "https://assets.amuniversal.com/309d48c0f7f401367804005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2227,
+    "fields": {
+        "comic_strip": 8,
+        "title": "Luann : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/luann/2019/01/22",
+        "comic_url": "https://assets.amuniversal.com/4395b250fb14013678f8005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2228,
+    "fields": {
+        "comic_strip": 6,
+        "title": "Pickles : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/pickles/2019/01/20",
+        "comic_url": "https://assets.amuniversal.com/ddcfe5b0e20f013670ac005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2230,
+    "fields": {
+        "comic_strip": 8,
+        "title": "Luann : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/luann/2019/01/21",
+        "comic_url": "https://assets.amuniversal.com/41cfb810fb14013678f8005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2232,
+    "fields": {
+        "comic_strip": 9,
+        "title": "Rose is Rose : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/roseisrose/2019/01/21",
+        "comic_url": "https://assets.amuniversal.com/2e750ec0f7f401367804005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2233,
+    "fields": {
+        "comic_strip": 8,
+        "title": "Luann : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/luann/2019/01/20",
+        "comic_url": "https://assets.amuniversal.com/49a26780eadb0136733a005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2235,
+    "fields": {
+        "comic_strip": 6,
+        "title": "Pickles : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/pickles/2019/01/19",
+        "comic_url": "https://assets.amuniversal.com/17940670ed1001367425005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2237,
+    "fields": {
+        "comic_strip": 9,
+        "title": "Rose is Rose : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/roseisrose/2019/01/20",
+        "comic_url": "https://assets.amuniversal.com/c97e15c0ea5201367328005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2238,
+    "fields": {
+        "comic_strip": 6,
+        "title": "Pickles : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/pickles/2019/01/18",
+        "comic_url": "https://assets.amuniversal.com/36fcdbe0ed1001367425005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2239,
+    "fields": {
+        "comic_strip": 9,
+        "title": "Rose is Rose : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/roseisrose/2019/01/19",
+        "comic_url": "https://assets.amuniversal.com/e1888700f26f013675d3005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2240,
+    "fields": {
+        "comic_strip": 8,
+        "title": "Luann : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/luann/2019/01/19",
+        "comic_url": "https://assets.amuniversal.com/f7cbc7e0f596013676d7005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2242,
+    "fields": {
+        "comic_strip": 9,
+        "title": "Rose is Rose : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/roseisrose/2019/01/18",
+        "comic_url": "https://assets.amuniversal.com/df35d200f26f013675d3005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2245,
+    "fields": {
+        "comic_strip": 10,
+        "title": "Non Sequitur : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/nonsequitur/2019/01/23",
+        "comic_url": "https://assets.amuniversal.com/d1377210fa4f013678a6005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2246,
+    "fields": {
+        "comic_strip": 8,
+        "title": "Luann : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/luann/2019/01/18",
+        "comic_url": "https://assets.amuniversal.com/f5c15f30f596013676d7005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2248,
+    "fields": {
+        "comic_strip": 10,
+        "title": "Non Sequitur : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/nonsequitur/2019/01/22",
+        "comic_url": "https://assets.amuniversal.com/bee4f000fa52013678a8005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2250,
+    "fields": {
+        "comic_strip": 10,
+        "title": "Non Sequitur : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/nonsequitur/2019/01/21",
+        "comic_url": "https://assets.amuniversal.com/f95fd3e0fa53013678a9005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2252,
+    "fields": {
+        "comic_strip": 10,
+        "title": "Non Sequitur : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/nonsequitur/2019/01/20",
+        "comic_url": "https://assets.amuniversal.com/adf83cc0eadb0136733a005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2253,
+    "fields": {
+        "comic_strip": 10,
+        "title": "Non Sequitur : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/nonsequitur/2019/01/19",
+        "comic_url": "https://assets.amuniversal.com/29b0fe70f596013676d7005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2256,
+    "fields": {
+        "comic_strip": 10,
+        "title": "Non Sequitur : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/nonsequitur/2019/01/18",
+        "comic_url": "https://assets.amuniversal.com/27f2f460f596013676d7005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2265,
+    "fields": {
+        "comic_strip": 11,
+        "title": "Wumo : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/wumo/2019/01/23",
+        "comic_url": "https://assets.amuniversal.com/01d02900f289013675e5005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2266,
+    "fields": {
+        "comic_strip": 11,
+        "title": "Wumo : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/wumo/2019/01/22",
+        "comic_url": "https://assets.amuniversal.com/fef3a500f288013675e5005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2267,
+    "fields": {
+        "comic_strip": 11,
+        "title": "Wumo : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/wumo/2019/01/21",
+        "comic_url": "https://assets.amuniversal.com/fc2b1900f288013675e5005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2268,
+    "fields": {
+        "comic_strip": 11,
+        "title": "Wumo : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/wumo/2019/01/20",
+        "comic_url": "https://assets.amuniversal.com/fc519bf0eadc0136733a005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2269,
+    "fields": {
+        "comic_strip": 11,
+        "title": "Wumo : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/wumo/2019/01/19",
+        "comic_url": "https://assets.amuniversal.com/de290e80f1b80136757c005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2270,
+    "fields": {
+        "comic_strip": 11,
+        "title": "Wumo : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/wumo/2019/01/18",
+        "comic_url": "https://assets.amuniversal.com/dc05d040f1b80136757c005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2274,
+    "fields": {
+        "comic_strip": 12,
+        "title": "Drabble : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/drabble/2019/01/23",
+        "comic_url": "https://assets.amuniversal.com/d54acf70f10101367530005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2276,
+    "fields": {
+        "comic_strip": 12,
+        "title": "Drabble : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/drabble/2019/01/22",
+        "comic_url": "https://assets.amuniversal.com/d3a54390f10101367530005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2277,
+    "fields": {
+        "comic_strip": 12,
+        "title": "Drabble : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/drabble/2019/01/21",
+        "comic_url": "https://assets.amuniversal.com/d209e080f10101367530005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2278,
+    "fields": {
+        "comic_strip": 12,
+        "title": "Drabble : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/drabble/2019/01/20",
+        "comic_url": "https://assets.amuniversal.com/66723e50ea5101367328005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2279,
+    "fields": {
+        "comic_strip": 12,
+        "title": "Drabble : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/drabble/2019/01/19",
+        "comic_url": "https://assets.amuniversal.com/3903c9b0e5dd013671c9005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2280,
+    "fields": {
+        "comic_strip": 12,
+        "title": "Drabble : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/drabble/2019/01/18",
+        "comic_url": "https://assets.amuniversal.com/36e02bd0e5dd013671c9005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2285,
+    "fields": {
+        "comic_strip": 13,
+        "title": "Frazz : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/frazz/2019/01/23",
+        "comic_url": "https://assets.amuniversal.com/12d27bb0fb14013678f8005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2286,
+    "fields": {
+        "comic_strip": 13,
+        "title": "Frazz : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/frazz/2019/01/22",
+        "comic_url": "https://assets.amuniversal.com/11150610fb14013678f8005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2287,
+    "fields": {
+        "comic_strip": 13,
+        "title": "Frazz : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/frazz/2019/01/21",
+        "comic_url": "https://assets.amuniversal.com/0f464880fb14013678f8005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2288,
+    "fields": {
+        "comic_strip": 13,
+        "title": "Frazz : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/frazz/2019/01/20",
+        "comic_url": "https://assets.amuniversal.com/353f16b0eada0136733a005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2289,
+    "fields": {
+        "comic_strip": 13,
+        "title": "Frazz : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/frazz/2019/01/19",
+        "comic_url": "https://assets.amuniversal.com/d2c63790f596013676d7005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2290,
+    "fields": {
+        "comic_strip": 13,
+        "title": "Frazz : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/frazz/2019/01/18",
+        "comic_url": "https://assets.amuniversal.com/0ef3d420f596013676d7005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2294,
+    "fields": {
+        "comic_strip": 14,
+        "title": "Zits : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "http://comicskingdom.com/zits/2019-01-23",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9aaXRzLzIwMTkvMDEvWml0cy4yMDE5MDEyM18xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2296,
+    "fields": {
+        "comic_strip": 14,
+        "title": "Zits : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "http://comicskingdom.com/zits/2019-01-22",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9aaXRzLzIwMTkvMDEvWml0cy4yMDE5MDEyMl8xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2297,
+    "fields": {
+        "comic_strip": 14,
+        "title": "Zits : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "http://comicskingdom.com/zits/2019-01-21",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9aaXRzLzIwMTkvMDEvWml0cy4yMDE5MDEyMV8xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2298,
+    "fields": {
+        "comic_strip": 14,
+        "title": "Zits : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "http://comicskingdom.com/zits/2019-01-20",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9aaXRzLzIwMTkvMDEvWml0c19udGIuMjAxOTAxMjBfMTQ0MC5naWY=",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2299,
+    "fields": {
+        "comic_strip": 15,
+        "title": "Baby Blues : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/baby-blues/2019-01-23",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CYWJ5Qmx1ZXMvMjAxOS8wMS9CYWJ5X0JsdWVzLjIwMTkwMTIzXzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2300,
+    "fields": {
+        "comic_strip": 15,
+        "title": "Baby Blues : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/baby-blues/2019-01-22",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CYWJ5Qmx1ZXMvMjAxOS8wMS9CYWJ5X0JsdWVzLjIwMTkwMTIyXzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2301,
+    "fields": {
+        "comic_strip": 15,
+        "title": "Baby Blues : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/baby-blues/2019-01-21",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CYWJ5Qmx1ZXMvMjAxOS8wMS9CYWJ5X0JsdWVzLjIwMTkwMTIxXzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2302,
+    "fields": {
+        "comic_strip": 15,
+        "title": "Baby Blues : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/baby-blues/2019-01-20",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CYWJ5Qmx1ZXMvMjAxOS8wMS9CYWJ5X0JsdWVzX250Yi4yMDE5MDEyMF8xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2303,
+    "fields": {
+        "comic_strip": 14,
+        "title": "Zits : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "http://comicskingdom.com/zits/2019-01-19",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9aaXRzLzIwMTkvMDEvWml0cy4yMDE5MDExOV8xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2304,
+    "fields": {
+        "comic_strip": 15,
+        "title": "Baby Blues : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/baby-blues/2019-01-19",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CYWJ5Qmx1ZXMvMjAxOS8wMS9CYWJ5X0JsdWVzLjIwMTkwMTE5XzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2305,
+    "fields": {
+        "comic_strip": 15,
+        "title": "Baby Blues : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/baby-blues/2019-01-18",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CYWJ5Qmx1ZXMvMjAxOS8wMS9CYWJ5X0JsdWVzLjIwMTkwMTE4XzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2306,
+    "fields": {
+        "comic_strip": 16,
+        "title": "Mutts : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/mutts/2019-01-23",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9NdXR0cy8yMDE5LzAxL011dHRzLjIwMTkwMTIzXzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2307,
+    "fields": {
+        "comic_strip": 14,
+        "title": "Zits : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "http://comicskingdom.com/zits/2019-01-18",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9aaXRzLzIwMTkvMDEvWml0cy4yMDE5MDExOF8xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2309,
+    "fields": {
+        "comic_strip": 16,
+        "title": "Mutts : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/mutts/2019-01-22",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9NdXR0cy8yMDE5LzAxL011dHRzLjIwMTkwMTIyXzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2311,
+    "fields": {
+        "comic_strip": 16,
+        "title": "Mutts : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/mutts/2019-01-21",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9NdXR0cy8yMDE5LzAxL011dHRzLjIwMTkwMTIxXzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2313,
+    "fields": {
+        "comic_strip": 16,
+        "title": "Mutts : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/mutts/2019-01-20",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9NdXR0cy8yMDE5LzAxL011dHRzX250Yi4yMDE5MDEyMF8xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2316,
+    "fields": {
+        "comic_strip": 16,
+        "title": "Mutts : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/mutts/2019-01-19",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9NdXR0cy8yMDE5LzAxL011dHRzLjIwMTkwMTE5XzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2317,
+    "fields": {
+        "comic_strip": 16,
+        "title": "Mutts : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/mutts/2019-01-18",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9NdXR0cy8yMDE5LzAxL011dHRzLjIwMTkwMTE4XzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2320,
+    "fields": {
+        "comic_strip": 17,
+        "title": "Rhymes with Orange : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/rhymes-with-orange/2019-01-23",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTkvMDEvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTkwMTIzXzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2323,
+    "fields": {
+        "comic_strip": 17,
+        "title": "Rhymes with Orange : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/rhymes-with-orange/2019-01-22",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTkvMDEvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTkwMTIyXzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2325,
+    "fields": {
+        "comic_strip": 17,
+        "title": "Rhymes with Orange : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/rhymes-with-orange/2019-01-21",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTkvMDEvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTkwMTIxXzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2328,
+    "fields": {
+        "comic_strip": 17,
+        "title": "Rhymes with Orange : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/rhymes-with-orange/2019-01-20",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTkvMDEvUmh5bWVzX3dpdGhfT3JhbmdlX250Yi4yMDE5MDEyMF8xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2329,
+    "fields": {
+        "comic_strip": 17,
+        "title": "Rhymes with Orange : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/rhymes-with-orange/2019-01-19",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTkvMDEvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTkwMTE5XzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2330,
+    "fields": {
+        "comic_strip": 17,
+        "title": "Rhymes with Orange : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/rhymes-with-orange/2019-01-18",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9SaHltZXNXaXRoT3JhbmdlLzIwMTkvMDEvUmh5bWVzX3dpdGhfT3JhbmdlLjIwMTkwMTE4XzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2331,
+    "fields": {
+        "comic_strip": 18,
+        "title": "Sharman's Lagoon : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/sherman-s-lagoon/2019-01-23",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9TaGVybWFuc0xhZ29vbi8yMDE5LzAxL1NoZXJtYW5zX0xhZ29vbi4yMDE5MDEyM18xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2333,
+    "fields": {
+        "comic_strip": 18,
+        "title": "Sharman's Lagoon : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/sherman-s-lagoon/2019-01-22",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9TaGVybWFuc0xhZ29vbi8yMDE5LzAxL1NoZXJtYW5zX0xhZ29vbi4yMDE5MDEyMl8xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2335,
+    "fields": {
+        "comic_strip": 18,
+        "title": "Sharman's Lagoon : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/sherman-s-lagoon/2019-01-21",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9TaGVybWFuc0xhZ29vbi8yMDE5LzAxL1NoZXJtYW5zX0xhZ29vbi4yMDE5MDEyMV8xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2337,
+    "fields": {
+        "comic_strip": 18,
+        "title": "Sharman's Lagoon : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/sherman-s-lagoon/2019-01-20",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9TaGVybWFuc0xhZ29vbi8yMDE5LzAxL1NoZXJtYW5zX0xhZ29vbl9udGIuMjAxOTAxMjBfMTQ0MC5naWY=",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2339,
+    "fields": {
+        "comic_strip": 18,
+        "title": "Sharman's Lagoon : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/sherman-s-lagoon/2019-01-19",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9TaGVybWFuc0xhZ29vbi8yMDE5LzAxL1NoZXJtYW5zX0xhZ29vbi4yMDE5MDExOV8xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2340,
+    "fields": {
+        "comic_strip": 18,
+        "title": "Sharman's Lagoon : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/sherman-s-lagoon/2019-01-18",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9TaGVybWFuc0xhZ29vbi8yMDE5LzAxL1NoZXJtYW5zX0xhZ29vbi4yMDE5MDExOF8xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2342,
+    "fields": {
+        "comic_strip": 19,
+        "title": "Mallard Fillmore : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/mallard-fillmore/2019-01-23",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9NYWxsYXJkRmlsbG1vcmUvMjAxOS8wMS9NYWxsYXJkX0ZpbGxtb3JlLjIwMTkwMTIzXzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2344,
+    "fields": {
+        "comic_strip": 19,
+        "title": "Mallard Fillmore : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/mallard-fillmore/2019-01-22",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9NYWxsYXJkRmlsbG1vcmUvMjAxOS8wMS9NYWxsYXJkX0ZpbGxtb3JlLjIwMTkwMTIyXzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2346,
+    "fields": {
+        "comic_strip": 19,
+        "title": "Mallard Fillmore : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/mallard-fillmore/2019-01-21",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9NYWxsYXJkRmlsbG1vcmUvMjAxOS8wMS9NYWxsYXJkX0ZpbGxtb3JlLjIwMTkwMTIxXzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2348,
+    "fields": {
+        "comic_strip": 19,
+        "title": "Mallard Fillmore : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/mallard-fillmore/2019-01-20",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9NYWxsYXJkRmlsbG1vcmUvMjAxOS8wMS9NYWxsYXJkX0ZpbGxtb3JlX250Yi4yMDE5MDEyMF8xNDQwLmdpZg==",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2349,
+    "fields": {
+        "comic_strip": 19,
+        "title": "Mallard Fillmore : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/mallard-fillmore/2019-01-19",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9NYWxsYXJkRmlsbG1vcmUvMjAxOS8wMS9NYWxsYXJkX0ZpbGxtb3JlLjIwMTkwMTE5XzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2350,
+    "fields": {
+        "comic_strip": 20,
+        "title": "Jump Start : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/jumpstart/2019/01/23",
+        "comic_url": "https://assets.amuniversal.com/cca3e650fa4f013678a6005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2351,
+    "fields": {
+        "comic_strip": 20,
+        "title": "Jump Start : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/jumpstart/2019/01/22",
+        "comic_url": "https://assets.amuniversal.com/cae025b0fa4f013678a6005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2352,
+    "fields": {
+        "comic_strip": 19,
+        "title": "Mallard Fillmore : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/mallard-fillmore/2019-01-18",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9NYWxsYXJkRmlsbG1vcmUvMjAxOS8wMS9NYWxsYXJkX0ZpbGxtb3JlLjIwMTkwMTE4XzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2353,
+    "fields": {
+        "comic_strip": 20,
+        "title": "Jump Start : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/jumpstart/2019/01/21",
+        "comic_url": "https://assets.amuniversal.com/f1f4c5e0fa53013678a9005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2354,
+    "fields": {
+        "comic_strip": 20,
+        "title": "Jump Start : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/jumpstart/2019/01/20",
+        "comic_url": "https://assets.amuniversal.com/924bae90ea5301367328005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2356,
+    "fields": {
+        "comic_strip": 20,
+        "title": "Jump Start : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/jumpstart/2019/01/19",
+        "comic_url": "https://assets.amuniversal.com/1bc90360f596013676d7005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2357,
+    "fields": {
+        "comic_strip": 20,
+        "title": "Jump Start : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/jumpstart/2019/01/18",
+        "comic_url": "https://assets.amuniversal.com/1a5000d0f596013676d7005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2365,
+    "fields": {
+        "comic_strip": 21,
+        "title": "Frank and Ernest : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/frank-and-ernest/2019/01/23",
+        "comic_url": "https://assets.amuniversal.com/8f0ef8d0f74c013677c7005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2366,
+    "fields": {
+        "comic_strip": 21,
+        "title": "Frank and Ernest : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/frank-and-ernest/2019/01/22",
+        "comic_url": "https://assets.amuniversal.com/8cf64fa0f74c013677c7005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2367,
+    "fields": {
+        "comic_strip": 21,
+        "title": "Frank and Ernest : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/frank-and-ernest/2019/01/21",
+        "comic_url": "https://assets.amuniversal.com/8aff5db0f74c013677c7005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2368,
+    "fields": {
+        "comic_strip": 21,
+        "title": "Frank and Ernest : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/frank-and-ernest/2019/01/20",
+        "comic_url": "https://assets.amuniversal.com/8c62b620ea5101367328005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2369,
+    "fields": {
+        "comic_strip": 21,
+        "title": "Frank and Ernest : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/frank-and-ernest/2019/01/19",
+        "comic_url": "https://assets.amuniversal.com/0d236650f1c40136758c005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2370,
+    "fields": {
+        "comic_strip": 21,
+        "title": "Frank and Ernest : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://www.gocomics.com/frank-and-ernest/2019/01/18",
+        "comic_url": "https://assets.amuniversal.com/0aad3600f1c40136758c005056a9545d",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2375,
+    "fields": {
+        "comic_strip": 22,
+        "title": "Bizarro : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/bizarro/2019-01-23",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CaXphcnJvLzIwMTkvMDEvQml6YXJyb19wLjIwMTkwMTIzXzY1Ny5naWY=",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2376,
+    "fields": {
+        "comic_strip": 22,
+        "title": "Bizarro : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/bizarro/2019-01-22",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CaXphcnJvLzIwMTkvMDEvQml6YXJyb19wLjIwMTkwMTIyXzY1Ny5naWY=",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2377,
+    "fields": {
+        "comic_strip": 22,
+        "title": "Bizarro : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/bizarro/2019-01-21",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CaXphcnJvLzIwMTkvMDEvQml6YXJyb19wLjIwMTkwMTIxXzY1Ny5naWY=",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2378,
+    "fields": {
+        "comic_strip": 22,
+        "title": "Bizarro : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/bizarro/2019-01-20",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CaXphcnJvLzIwMTkvMDEvQml6YXJyb19udGIuMjAxOTAxMjBfMTQ0MC5naWY=",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2379,
+    "fields": {
+        "comic_strip": 22,
+        "title": "Bizarro : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/bizarro/2019-01-19",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CaXphcnJvLzIwMTkvMDEvQml6YXJyb19wLjIwMTkwMTE5XzY1Ny5naWY=",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2380,
+    "fields": {
+        "comic_strip": 23,
+        "title": "Sally Forth : 1/23/2019",
+        "date": "2019-01-23",
+        "alt_text": "",
+        "comic_page_url": "http://comicskingdom.com/sally-forth/2019-01-23",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9TYWxseUZvcnRoLzIwMTkvMDEvU2FsbHlfRm9ydGguMjAxOTAxMjNfMTQ0MC5naWY=",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2381,
+    "fields": {
+        "comic_strip": 22,
+        "title": "Bizarro : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "https://comicskingdom.com/bizarro/2019-01-18",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9CaXphcnJvLzIwMTkvMDEvQml6YXJyb19wLjIwMTkwMTE4XzY1Ny5naWY=",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2382,
+    "fields": {
+        "comic_strip": 23,
+        "title": "Sally Forth : 1/22/2019",
+        "date": "2019-01-22",
+        "alt_text": "",
+        "comic_page_url": "http://comicskingdom.com/sally-forth/2019-01-22",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9TYWxseUZvcnRoLzIwMTkvMDEvU2FsbHlfRm9ydGguMjAxOTAxMjJfMTQ0MC5naWY=",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2384,
+    "fields": {
+        "comic_strip": 23,
+        "title": "Sally Forth : 1/21/2019",
+        "date": "2019-01-21",
+        "alt_text": "",
+        "comic_page_url": "http://comicskingdom.com/sally-forth/2019-01-21",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9TYWxseUZvcnRoLzIwMTkvMDEvU2FsbHlfRm9ydGguMjAxOTAxMjFfMTQ0MC5naWY=",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2386,
+    "fields": {
+        "comic_strip": 23,
+        "title": "Sally Forth : 1/20/2019",
+        "date": "2019-01-20",
+        "alt_text": "",
+        "comic_page_url": "http://comicskingdom.com/sally-forth/2019-01-20",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9TYWxseUZvcnRoLzIwMTkvMDEvU2FsbHlfRm9ydGhfbnRiLjIwMTkwMTIwXzE0NDAuZ2lm",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2388,
+    "fields": {
+        "comic_strip": 23,
+        "title": "Sally Forth : 1/19/2019",
+        "date": "2019-01-19",
+        "alt_text": "",
+        "comic_page_url": "http://comicskingdom.com/sally-forth/2019-01-19",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9TYWxseUZvcnRoLzIwMTkvMDEvU2FsbHlfRm9ydGguMjAxOTAxMTlfMTQ0MC5naWY=",
+        "alt_comic_url": ""
+    }
+},
+{
+    "model": "comics.comic",
+    "pk": 2390,
+    "fields": {
+        "comic_strip": 23,
+        "title": "Sally Forth : 1/18/2019",
+        "date": "2019-01-18",
+        "alt_text": "",
+        "comic_page_url": "http://comicskingdom.com/sally-forth/2019-01-18",
+        "comic_url": "https://safr.kingfeatures.com/idn/ck3/content.php?file=aHR0cDovL3NhZnIua2luZ2ZlYXR1cmVzLmNvbS9TYWxseUZvcnRoLzIwMTkvMDEvU2FsbHlfRm9ydGguMjAxOTAxMThfMTQ0MC5naWY=",
+        "alt_comic_url": ""
+    }
 }
 ]
