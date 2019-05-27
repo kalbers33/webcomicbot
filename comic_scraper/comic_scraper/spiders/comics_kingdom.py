@@ -17,43 +17,25 @@ class ComicsKingdomSpider(scrapy.Spider):
         super(ComicsKingdomSpider, self).__init__(*args, **kwargs)
 
     def parse(self, response):
+        comic_page_url = response.css("slider-disqus::attr(date-slug)").extract_first()
+        comic_page_url = response.urljoin("{}/{}".format(response.url, comic_page_url))
+
+        yield scrapy.Request(
+                comic_page_url,
+                callback=self.parse_comic_page)
+
+    def parse_comic_page(self, response):
         info = {}
-
-        comic_page_url = response.css("img::attr(data-src)").extract_first()
-        comic_page_url = response.urljoin(comic_page_url)
-        info['comic_page_url'] = response.css("header h5 a::attr(href)").extract_first()
-        info['comic_page_url'] = response.urljoin(info['comic_page_url'])
-
-        nav_bar = response.css("nav.date-nav.clearfix.no-overlay")
-
-        date = nav_bar.css("span.no-mobile::text").extract_first()
+        info['comic_page_url'] = response.url
+        info['comic_url'] = response.css('slider-image::attr(image-url)').extract_first()
+        date = response.css('slider-disqus::attr(date-slug)').extract_first()
         info['date'] = parse(date)
-
-        next_comic_url = nav_bar.xpath("//i[@class='fa fa-caret-left']/parent::a/@href").extract_first()
-        next_comic_url = response.urljoin(next_comic_url)
-
-        if comic_page_url is not None:
-            request = scrapy.Request(
-                    comic_page_url,
-                    callback=self.parse_comic_src
-                    )
-            request.meta['info'] = info
-            request.meta['next_comic_url'] = next_comic_url
-            yield request
-
-    def parse_comic_src(self, response):
-        info = response.meta['info']
-        info['comic_url'] = response.css("img::attr(src)").extract_first()
-        info['comic_url'] = response.urljoin(info['comic_url'])
-
-        next_page = response.meta['next_comic_url']
-
         self.pages_scraped = self.pages_scraped + 1
-
         yield info
 
-        if next_page is not None:
-            if self.pages_scraped < NUM_PAGES_TO_SCRAPE:
-                yield scrapy.Request(
-                        next_page,
-                        callback=self.parse)
+        if self.pages_scraped < NUM_PAGES_TO_SCRAPE:
+            next_date_string = response.css("slider-arrow[\:is-left-arrow=true]::attr(date-slug)").extract_first()
+            next_page = response.urljoin(next_date_string)
+            yield scrapy.Request(
+                    next_page,
+                    callback=self.parse_comic_page)
